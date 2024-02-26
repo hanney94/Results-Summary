@@ -1,3 +1,29 @@
+* {
+	font-family: Hanken Grotesk, sans-serif;
+	box-sizing: border-box;
+
+	}
+
+body {
+    display: flex;
+    flex-direction: column;
+    height:100%;
+    width: 100%;
+}
+
 .purple {
-    background-color: hsl(252, 100%, 67%);
+    background: linear-gradient(hsla(256, 72%, 46%, 1), hsla(241, 72%, 46%, 1));
+    height: 25rem;
+    border: none;
+    border-bottom-left-radius: 2rem;
+    border-bottom-right-radius: 2rem;
+    align-items: center;
+
+}
+
+p {
+    color: hsl(241, 100%, 89%);
+    text-align: center;
+    margin-top: 2rem;
+    font-size: 18px;
 }
