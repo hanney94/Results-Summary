@@ -14,7 +14,7 @@ body {
 .purple {
     display: flex;
     flex-direction: column;
-    background: linear-gradient(hsl(252, 100%, 67%), hsl(241, 81%, 54%));
+    background: linear-gradient(hsl(252, 100%, 62%), hsl(241, 81%, 54%));
     height: 25rem;
     border-bottom-left-radius: 2rem;
     border-bottom-right-radius: 2rem;
