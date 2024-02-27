@@ -69,6 +69,7 @@ h1 {
 h2 {
     margin-left: 15px;
     color: hsl(224, 30%, 27%);
+    padding: 10px;
 }
 
 .list {
@@ -85,7 +86,7 @@ h2 {
     align-items: center;
     border-radius: 8px;
     padding: 10px;
-    margin-bottom: 15px;
+    margin-bottom: 20px;
     justify-content: space-between;
    
 
@@ -126,7 +127,26 @@ h2 {
    
 }
 
+.button {
+    display: flex;
+    justify-content: center;  
+    margin-top: 20px; 
+}
 
+.continue {
+    display: flex;
+    background-color:hsl(224, 30%, 27%) ;
+    border-radius: 40px;
+    height: 70px;
+    width: 100%;
+    align-items: center; 
+    justify-content: center;
+}
+
+#continue {
+    color: white;
+    margin: 0px;
+}
 
 
 @media only screen and (min-width: 600x){
