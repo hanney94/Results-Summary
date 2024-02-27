@@ -14,9 +14,8 @@ body {
 .purple {
     display: flex;
     flex-direction: column;
-    background: linear-gradient(hsla(256, 72%, 60%, 1), hsla(241, 72%, 46%, 1));
+    background: linear-gradient(hsl(252, 100%, 67%), hsl(241, 81%, 54%));
     height: 25rem;
-    border: none;
     border-bottom-left-radius: 2rem;
     border-bottom-right-radius: 2rem;
     align-items: center;
@@ -31,22 +30,23 @@ p {
 }
 
 .seven {
-    font-size: 50px;
+    font-size: 60px;
     color: white;
 }
 
 .of100 {
     font-size: 18px;
    color:  hsl(241, 100%, 80%);
+   text-align: center;
 }
 
 .circle {
     display: flex;
-    width: 40%;
-    height: 37%;
+    width: 42%;
+    height: 39%;
     border-radius: 50%;
-    background: linear-gradient(hsla(256, 72%, 60%, 1), hsla(241, 72%, 46%, 1));
+    background: linear-gradient(hsla(256, 72%, 46%, 1), hsla(241, 72%, 46%, 0));
     justify-content: center;
-    align-items: center;
+   
 }
 
