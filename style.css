@@ -82,7 +82,7 @@ h2 {
 
 .reaction, .memory, .verbal, .visual {
     display: flex;
-    height: 57px;
+    height: 60px;
     align-items: center;
     border-radius: 8px;
     padding: 10px;
@@ -146,6 +146,10 @@ h2 {
 #continue {
     color: white;
     margin: 0px;
+}
+
+.continue:hover {
+    cursor: pointer;
 }
 
 
