@@ -46,7 +46,14 @@ p {
     height: 39%;
     border-radius: 50%;
     background: linear-gradient(hsla(256, 72%, 46%, 1), hsla(241, 72%, 46%, 0));
-    justify-content: center;
-   
+    justify-content: center;  
 }
 
+.summary {
+    display: flex;
+}
+
+h2 {
+    margin-left: 15px;
+    color: hsl(224, 30%, 27%);
+}
