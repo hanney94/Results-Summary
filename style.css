@@ -49,6 +49,19 @@ p {
     justify-content: center;  
 }
 
+h1 {
+    color: white;
+}
+
+.para {
+    font-size: 18px;
+    text-align: center;
+    padding: 0px 20px 0px 20px;
+    margin-top: 0px;
+    color: hsl(241, 100%, 89%);
+    
+}
+
 .summary {
     display: flex;
 }
@@ -56,4 +69,22 @@ p {
 h2 {
     margin-left: 15px;
     color: hsl(224, 30%, 27%);
+}
+
+
+
+
+
+@media only screen and (min-width: 600x){
+
+}
+
+
+@media only screen and (min-width: 1440px) {
+body {
+    flex-direction: row;
+}
+
+}
+    
 }
