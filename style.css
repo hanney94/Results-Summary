@@ -7,9 +7,10 @@
 body {
     display: flex;
     flex-direction: column;
-    height:100%;
-    width: 100%;
+
 }
+
+/* Your Result */
 
 .purple {
     display: flex;
@@ -62,6 +63,8 @@ h1 {
     
 }
 
+/* Summary */
+
 .summary {
     display: flex;
 }
@@ -71,6 +74,9 @@ h2 {
     color: hsl(224, 30%, 27%);
     padding: 10px;
 }
+
+
+/* Results Totals */
 
 .list {
     display: flex;
@@ -127,6 +133,8 @@ h2 {
    
 }
 
+/* Button */
+
 .button {
     display: flex;
     justify-content: center;  
@@ -153,6 +161,9 @@ h2 {
 }
 
 
+/* Media Queries */
+
+
 @media only screen and (min-width: 600x){
 
 }
@@ -160,7 +171,22 @@ h2 {
 
 @media only screen and (min-width: 1440px) {
 body {
+    display: flex;
     flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.purple {
+    height: 60%;
+    width: 25%;
+    border-radius: 2em;
+}
+
+.section2 {
+    height: 60%;
+    width: 25%;
 }
 
 }
