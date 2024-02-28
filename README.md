@@ -32,7 +32,7 @@ Users should be able to:
 ### Links
 
 - Solution URL: (https://github.com/hanney94/Results-Summary.git)
-- Live Site URL: [[Add live site URL here](https://your-live-site-url.com)](https://hanney94.github.io/Results-Summary/)
+- Live Site URL: (https://your-live-site-url.com)](https://hanney94.github.io/Results-Summary/)
 
 ## My process
 
