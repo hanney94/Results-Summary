@@ -158,6 +158,12 @@ h2 {
 
 .continue:hover {
     cursor: pointer;
+    background: linear-gradient(hsl(252, 100%, 62%), hsl(241, 81%, 54%));
+}
+
+.continue:active{
+    background: linear-gradient(hsl(252, 100%, 62%), hsl(241, 81%, 54%));;
+
 }
 
 
